@@ -144,6 +144,12 @@ transition: 0.5s ease;
     position: relative;
     line-height: 60px;
     color: #555;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.tittle:hover{
+    transform:  translateY(20px);
 }
 
 .tittle::after{
@@ -165,7 +171,7 @@ h4{
 }
 .col4 p{
     font-size: 14px;
-}
+} 
 
 .rating .fa{
     color: #ff523b;
@@ -174,6 +180,6 @@ h4{
 }
 
 .col4:hover{
-    transform: translateY(-30px);
+    transform: translateY(-20px);
 }
 
